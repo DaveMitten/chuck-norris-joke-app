@@ -1,6 +1,6 @@
-import { override, fixBabelImports } from 'customize-cra';
+const { override, fixBabelImports } = require('customize-cra');
 
-export default override(
+module.exports = override(
 	fixBabelImports('import', {
 		libraryName: 'antd',
 		libraryDirectory: 'es',
