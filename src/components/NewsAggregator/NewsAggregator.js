@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 
 class NewsAggregator extends Component {
-  render() {
-	return (
-	  <div>
-		hi
-	  </div>
-	)
-  }
+	render() {
+		return (
+			<div>
+				<Button type="primary">hi</Button>
+			</div>
+		);
+	}
 }
 
 
